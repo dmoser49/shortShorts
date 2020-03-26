@@ -20,8 +20,13 @@ img {
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: .3em;
-  /*background-color: #fff6d5;*/
-  /*border-bottom: 2px solid white;*/
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
 }
 
 .nav {
