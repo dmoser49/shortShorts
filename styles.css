@@ -7,6 +7,16 @@ img {
   margin-top: -5px;
   padding-right: 60px;
   padding-left: 60px;
+  width: 150;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 50;
+    margin-top: 20px;
+    padding-right:20px;
+    padding-left:20px;
+  }
 }
 
 .header {
@@ -36,10 +46,23 @@ img {
   margin-top: -50px;
 }
 
+@media screen and (max-width: 600px) {
+  .nav {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+}
+
 .nav > a {
   padding: 5px 40px;
   text-decoration: none;
   color: #ff8080;
+}
+
+@media screen and (max-width: 600px) {
+  .nav > a {
+    padding: 10px;
+  }
 }
 
 .active {
