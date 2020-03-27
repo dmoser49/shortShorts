@@ -1,8 +1,10 @@
 body {
-  background-color: #fff6d5;
   font-family: Futura;
-  color: #ff8080;
   margin: 0px;
+  /*background-color: #fff6d5;
+  color: #ff8080;*/
+  background-color: #ff8080;
+  color: #fff6d5;
 }
 
 img {
@@ -17,7 +19,9 @@ img {
 
 h2 {
   font-size: 48px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .header {
@@ -29,11 +33,12 @@ h2 {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
+  text-align: justify;
 }
 
 .title {
-  font-size: 64px;
-  letter-spacing: 5px;
+  font-size: 52px;
+  letter-spacing: 3px;
   text-align: center;
   margin-bottom: .3em;
 }
@@ -55,7 +60,6 @@ h2 {
   font-size: 18px;
   /*margin-top: -60px;*/
   padding-bottom: 20px;
-  border-bottom: 5px solid white;
 }
 
 @media screen and (max-width: 600px) {
@@ -68,7 +72,8 @@ h2 {
 a {
   padding: 5px 40px;
   text-decoration: none;
-  color: #ff8080;
+  /*color: #ff8080;*/
+  color: #fff6d5;
 }
 
 @media screen and (max-width: 600px) {
@@ -78,13 +83,18 @@ a {
 }
 
 .active {
-  border-bottom: 2px dotted #ff8080;
+  /*border-bottom: 2px dotted #ff8080;*/
+  border-bottom: 2px dotted #fff6d5;
 }
 
 .container {
   padding: 40px 250px;
   font-family: PT Sans Narrow;
   font-size: 20px;
+  /*background-color: #ff8080;
+  color: #fff6d5;*/
+  background-color: #fff6d5;
+  color: #ff8080;
 }
 
 @media screen and (max-width: 600px) {
