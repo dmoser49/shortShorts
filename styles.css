@@ -51,7 +51,9 @@ h2 {
 
 @media screen and (max-width: 600px) {
   .title {
-    font-size: 24px;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -96,7 +98,7 @@ a {
 
 .container {
   padding: 40px 250px;
-  font-family: PT Sans Narrow, Verana;
+  font-family: "PT Sans Narrow", "Verana";
   font-size: 20px;
   /*background-color: #ff8080;
   color: #fff6d5;*/
