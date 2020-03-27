@@ -36,6 +36,12 @@ h2 {
   text-align: justify;
 }
 
+@media screen and (max-width: 600px) {
+  .row {
+    display: block;
+  }
+}
+
 .title {
   font-size: 52px;
   letter-spacing: 3px;
@@ -43,16 +49,17 @@ h2 {
   margin-bottom: .3em;
 }
 
-.row-item {
-  flex: 1;
-}
-
-
 @media screen and (max-width: 600px) {
   .title {
     font-size: 24px;
   }
 }
+
+.row-item {
+  flex: 1;
+}
+
+
 
 .nav {
   display: flex;
@@ -89,7 +96,7 @@ a {
 
 .container {
   padding: 40px 250px;
-  font-family: PT Sans Narrow;
+  font-family: PT Sans Narrow, Verana;
   font-size: 20px;
   /*background-color: #ff8080;
   color: #fff6d5;*/
